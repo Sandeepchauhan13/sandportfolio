@@ -3,7 +3,7 @@ import React from 'react'
 const About = (props) => {
   return (
     // <div name="about" className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white">
-    <div name="about" style={{backgroundColor: props.mode==='light'?'#dcfce7':'#18181b', color: props.mode==='light'?'black':'#fef08a'}}>
+    <div name="about" className="h-screen w-full" style={{backgroundColor: props.mode==='light'?'#dcfce7':'#18181b', color: props.mode==='light'?'black':'#fef08a'}}>
              {/* mx-auto is used to center the div  */}
       <div className="max-w-screen-lg flex flex-col p-4 mx-auto justify-center w-full h-full">
         <div className="pb-8">

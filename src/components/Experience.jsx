@@ -57,10 +57,10 @@ const Experience = (props) => {
     // <div name="experience" className="bg-gradient-to-b pt-96 from-gray-800 to-black w-full h-screen">
     <div name="experience" style={{backgroundColor: props.mode==='light'?'#dcfce7':'#18181b', color: props.mode==='light'?'black':'#fef08a'}}>
       {/* <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white"> */}
-      <div style={{backgroundColor: props.mode==='light'?'#dcfce7':'#18181b', color: props.mode==='light'?'black':'#fef08a'}}>
-        <div className="p-2  mx-10">
-            <p className="text-4xl font-bold pt-60 mt-60 border-b-4 inline mx-24 border-gray-500 p-2">Experience</p>
-            <p className="py-6 mx-24">These are the technologies i have worked with</p>
+      <div className="justify-center flex flex-col mx-auto w-full h-full" style={{backgroundColor: props.mode==='light'?'#dcfce7':'#18181b', color: props.mode==='light'?'black':'#fef08a'}}>
+        <div className="p-2  mx-16">
+            <p className="text-4xl font-bold pt-60 mt-60 border-b-4 inline border-gray-500 p-2">Experience</p>
+            <p className="py-6 ">These are the technologies i have worked with</p>
         </div>
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
             {experience.map(({id, src,title,style})=>(
