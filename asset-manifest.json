@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sandportfolio/static/css/main.1ed5f2ca.css",
-    "main.js": "/sandportfolio/static/js/main.c7d7c122.js",
+    "main.css": "/sandportfolio/static/css/main.aad55589.css",
+    "main.js": "/sandportfolio/static/js/main.bf330d77.js",
     "static/media/newsapi.png": "/sandportfolio/static/media/newsapi.d5d27e978e1cbf9c6440.png",
     "static/media/routing.png": "/sandportfolio/static/media/routing.3ba80e616d75c1d0111e.png",
     "static/media/sanddev.jpg": "/sandportfolio/static/media/sanddev.cf9f21503bd5ba7bb985.jpg",
@@ -15,11 +15,11 @@
     "static/media/hooks.png": "/sandportfolio/static/media/hooks.f593ba8f2b8574e8cff1.png",
     "static/media/javascript.png": "/sandportfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/sandportfolio/index.html",
-    "main.1ed5f2ca.css.map": "/sandportfolio/static/css/main.1ed5f2ca.css.map",
-    "main.c7d7c122.js.map": "/sandportfolio/static/js/main.c7d7c122.js.map"
+    "main.aad55589.css.map": "/sandportfolio/static/css/main.aad55589.css.map",
+    "main.bf330d77.js.map": "/sandportfolio/static/js/main.bf330d77.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ed5f2ca.css",
-    "static/js/main.c7d7c122.js"
+    "static/css/main.aad55589.css",
+    "static/js/main.bf330d77.js"
   ]
 }
