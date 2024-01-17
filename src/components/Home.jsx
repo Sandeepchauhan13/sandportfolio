@@ -34,7 +34,7 @@ const Home = (props) => {
           'Full Stack Developer',
           800,
           () => setTextColor('aqua'),
-          'React, Nextjs, Javascript',
+          'React, Nextjs, Javascript, Nodejs',
           800,
           () => setTextColor('deeppink'),
           'Tailwindcss, Bootstrap,MongoDb, Html, Css',
