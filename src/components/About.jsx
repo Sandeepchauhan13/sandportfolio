@@ -49,7 +49,11 @@ const About = (props) => {
     <br />
     <br  />
     5.<span className="text-1xl" style={{
-          color: props.mode==='light'?'#db2777':'white'}}>Nextjs, Node, MongoDb-</span> I have Learned Mongodb, Nextjs, and created Project on Next js and Node too.
+          color: props.mode==='light'?'#db2777':'white'}}>Nextjs, Node, MongoDb(Production Grade Backend)</span>
+           I have Learned Mongodb, Nextjs, and created Project on Next js and Node too.
+           Node js RESTful API - REST (REpresentational State Transfer) . REST is web standards based architecture and uses HTTP Protocol.
+           Cors, Axios inside useEffect hooks.
+          
     
     </p>
   
