@@ -13,6 +13,7 @@ const Home = (props) => {
   
   const [textColor, setTextColor] = useState('deeppink');
   
+  
   return (
     // <div name="home" className="h-screen w-full bg-gradient-to-b from-black to-gray-800">
     <div name="home" style={{backgroundColor: props.mode==='light'?'#dcfce7':'#18181b', color: props.mode==='light'?'black':'#fef08a'}}>
