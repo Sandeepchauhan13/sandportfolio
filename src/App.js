@@ -35,13 +35,12 @@ const App = () => {
       setAlert(null);
     }, 2000);
   }
- 
 
   return (
 
     <>
      <NavBar toggleMode={toggleMode} showAlert={showAlert} mode={mode}/>
-     <Alert alert={alert}/>
+     <Alert alert={alert} />
      <Home toggleMode={toggleMode} showAlert={showAlert} mode={mode}/>
      <About toggleMode={toggleMode} showAlert={showAlert} mode={mode}/>
      <Portfolio toggleMode={toggleMode} showAlert={showAlert} mode={mode} />
