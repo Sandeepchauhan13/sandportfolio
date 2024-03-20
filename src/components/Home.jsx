@@ -18,7 +18,7 @@ const Home = (props) => {
     // <div name="home" className="h-screen w-full bg-gradient-to-b from-black to-gray-800">
     <div name="home" style={{backgroundColor: props.mode==='light'?'#dcfce7':'#18181b', color: props.mode==='light'?'black':'#fef08a'}}>
      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-        <div className="flex flex-col justify-center h-full mt-44">
+        <div className="flex flex-col justify-center h-full mt-24">
             <h3 className="text-white text-3xl sm:text-7xl my-3 font-bold md:w-full">
             <div style={{height: '70px', width:'300px'}}>
             
